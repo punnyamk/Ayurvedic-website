@@ -2,14 +2,14 @@ import React from 'react';
 import MASSAGE_IMAGE_URL from './assets/blog1.jpg';
 import BLOOD_IMAGE_URL from './assets/blog2.jpg';
 import AYURVEDA_IMAGE_URL from './assets/blog3.jpg';
-import vector from './assets/vector.png'
+import Vector from './assets/Vector.png'
 import blog4 from './assets/blog4.jpg'
 function Service() {
   return (
     <div className="max-w-7xl mx-auto p-4 md:p-8">
       
       <div className="flex items-center mb-8 md:mb-12">
-        <img src={vector} alt=""  className='mr-32'/>
+        <img src={Vector} alt=""  className='mr-32'/>
         {/* <span className="w-6 h-6 mr-2 bg-green-700 rounded-full hidden sm:inline-block"></span>  */}
         <h1 className="font-serif italic text-3xl md:text-4xl text-[#679F35] ml-48 ">
           Look at the Latest Blogs
