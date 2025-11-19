@@ -6,7 +6,9 @@ import appointment1 from '../../assets/appointment1.png'
 import Details from './Details';
 import Ending from './Ending';
 import Footer from '../../Components/Footer';
-import Answer from './answer';
+
+import Qanswer from './Qanswer';
+
 
 const HeroHelpCenter = () => {
   return (
@@ -51,7 +53,7 @@ const HeroHelpCenter = () => {
       <div className="absolute bottom-0 w-full h-24 bg-white"></div>
 
     </div>
-    <Answer/>
+   <Qanswer/>
     <Details/>
     <Ending/>
     <Footer/>
