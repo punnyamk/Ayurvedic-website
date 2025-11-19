@@ -1,40 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Group from '../assets/Group.png'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import Group from './assets/Group.png'
 
-// Replace with your actual image paths
 
-import logoIcon from './assets/home.png';
-import endingpage from './assets/endingpage.png'
-
-function Endingpage() {
+function Footer() {
   return (
-    <div className="font-sans text-gray-800 bg-white overflow-hidden">
-      
-      {/* 🌿 Hero Section */}
-      <section
-        className="relative flex items-center justify-start h-[70vh] bg-cover bg-center px-6 md:px-16 lg:px-28"
-        style={{ backgroundImage: `url(${endingpage})` }}
-      >
-        {/* <div className="relative z-10 max-w-lg text-white">
-          <p className="text-green-200 text-lg md:text-xl italic font-light mb-2">
-            100% <span className="text-green-400">Natural</span>
-          </p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium leading-snug mb-4">
-            Discover Our <br /> Skincare Products
-          </h1>
-          <p className="text-base md:text-lg font-light mb-8">
-            Made using clean, Natural ingredients
-          </p>
-          <button className="bg-white text-green-600 font-medium px-6 py-3 rounded-full shadow-md flex items-center hover:bg-gray-100 transition duration-300">
-            Discover Now
-            <span className="ml-2 text-lg">→</span>
-          </button>
-        </div> */}
-      </section>
-
-      {/* 🌱 Footer Section */}
-      <footer className="bg-[#DDEADE] pt-16 pb-6 rounded-t-[60px] -mt-12 relative z-20 shadow-inner">
+    <>
+     <footer className="bg-[#DDEADE] pt-16 pb-6 rounded-t-[60px] -mt-12 relative z-20 shadow-inner">
         <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
           {/* Column 1: Company Info */}
@@ -92,7 +64,7 @@ function Endingpage() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full sm:w-auto lg:w-full p-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 text-gray-700"
+                className="w-full sm:w-auto lg:w-full p-3 rounded-full border bg-white border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 text-gray-700"
               />
               <button className="bg-[#C9FF70] text-gray-900 px-6 py-3 rounded-full shadow-md hover:bg-[#b4ff4b] transition font-semibold">
                 SUBSCRIBE
@@ -106,8 +78,8 @@ function Endingpage() {
           Copyright © 2026 Mindveda
         </div>
       </footer>
-    </div>
-  );
+    </>
+  )
 }
 
-export default Endingpage;
+export default Footer

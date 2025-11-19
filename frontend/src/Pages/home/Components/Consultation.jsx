@@ -1,21 +1,21 @@
 import React from "react";
 import { Quote } from "lucide-react";
 
-import pp1 from "./assets/pp1.jpg";
-import pp2 from "./assets/pp2.png";
-import pp3 from "./assets/pp3.jpg";
-import pp4 from "./assets/pp4.png";
-import pp5 from "./assets/pp5.jpg";
-import pp6 from "./assets/pp6.png";
-import pp7 from "./assets/pp7.jpg";
-import pp8 from "./assets/pp8.png";
-import pp9 from "./assets/pp9.jpg";
-import pp10 from "./assets/pp9.jpg";
-import pp11 from "./assets/pp9.jpg";
-import doctor from "./assets/doctor.png";
-import ppp from "./assets/ppp.jpg";
-import pppp from "./assets/pppp.png";
-import consultation from "./assets/consultation.jpg"; // add your consultation image
+import pp1 from "../../../assets/pp1.jpg";
+import pp2 from "../../../assets/pp2.png";
+import pp3 from "../../../assets/pp3.jpg";
+import pp4 from "../../../assets/pp4.png";
+import pp5 from "../../../assets/pp5.jpg";
+import pp6 from "../../../assets/pp6.png";
+import pp7 from "../../../assets/pp7.jpg";
+import pp8 from "../../../assets/pp8.png";
+import pp9 from "../../../assets/pp9.jpg";
+import pp10 from "../../../assets/pp9.jpg";
+import pp11 from "../../../assets/pp9.jpg";
+import doctor from "../../../assets/doctor.png";
+import ppp from "../../../assets/ppp.jpg";
+import pppp from "../../../assets/pppp.png";
+import consultation from "../../../assets/consultation.jpg"; // add your consultation image
 
 function Testimonials() {
   const people = [

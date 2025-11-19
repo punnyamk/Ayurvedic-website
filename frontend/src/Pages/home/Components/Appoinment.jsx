@@ -1,10 +1,11 @@
 import React from "react";
 import { Leaf } from "lucide-react";
-import ap1 from './assets/ap1.jpg'
-import ap2 from './assets/ap2.jpg'
-import ap3 from './assets/ap3.jpg'
-import ap4 from './assets/ap4.jpg'
-import ap5 from './assets/ap5.jpg'
+import ap1 from '../../../assets/ap1.jpg'
+import ap2 from '../../../assets/ap2.jpg'
+import ap3 from '../../../assets/ap3.jpg'
+import ap4 from '../../../assets/ap4.jpg'
+import ap5 from '../../../assets/ap5.jpg'
+
 
 const Appointment = () => {
   return (

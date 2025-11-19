@@ -1,14 +1,14 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import ayur1 from "./assets/ayur1.jpg";
-import Frame1 from "./assets/Frame1.png";
-import frame2 from "./assets/frame2.jpg";
-import frame3 from "./assets/frame3.jpg";
-import Frame4 from "./assets/Frame4.jpg";
-import dental1 from "./assets/dental1.png";
-import dental2 from "./assets/dental2.png";
-import dental3 from "./assets/dental3.png";
-import dental4 from "./assets/dental4.png";
+import ayur1 from "../../../assets/ayur1.jpg";
+import Frame1 from "../../../assets/Frame1.png";
+import frame2 from "../../../assets/frame2.jpg";
+import frame3 from "../../../assets/frame3.jpg";
+import Frame4 from "../../../assets/Frame4.jpg";
+import dental1 from "../../../assets/dental1.png";
+import dental2 from "../../../assets/dental2.png";
+import dental3 from "../../../assets/dental3.png";
+import dental4 from "../../../assets/dental4.png";
 
 const treatments = [
   {

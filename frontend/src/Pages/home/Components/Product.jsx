@@ -1,10 +1,10 @@
 import React from "react";
-import product1 from './assets/product1.png'
-import product2 from './assets/product2.png'
-import product3 from './assets/product3.png'
-import product5 from './assets/product5.png'
-import turmeric from "./assets/turmeric.jpg";
-import ficon from './assets/ficon.png'
+import product1 from '../../../assets/product1.png'
+import product2 from '../../../assets/product2.png'
+import product3 from '../../../assets/product3.png'
+import product5 from '../../../assets/product5.png'
+import turmeric from "../../../assets/turmeric.jpg";
+import ficon from '../../../assets/ficon.png'
 
 
 function Product() {

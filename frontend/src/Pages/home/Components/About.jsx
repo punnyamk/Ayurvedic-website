@@ -1,15 +1,15 @@
 import React from "react";
 import { Leaf, Truck, ShieldCheck, UserCheck, Sprout } from "lucide-react";
-import pd1 from './assets/pd1.jpg';
-import pd2 from './assets/pd2.jpg';
-import pd3 from './assets/pd3.jpg';
-import pd4 from './assets/pd4.jpg';
-import ab1 from './assets/ab1.png'
-import ab2 from './assets/ab2.png'
-import ab3 from './assets/ab3.png'
-import ab4 from './assets/ab4.png'
-import ab5 from './assets/ab5.png'
-import ab6 from './assets/ab6.png'
+import pd1 from '../../../assets/pd1.jpg';
+import pd2 from '../../../assets/pd2.jpg';
+import pd3 from '../../../assets/pd3.jpg';
+import pd4 from '../../../assets/pd4.jpg';
+import ab1 from '../../../assets/ab1.png'
+import ab2 from '../../../assets/ab2.png'
+import ab3 from '../../../assets/ab3.png'
+import ab4 from '../../../assets/ab4.png'
+import ab5 from '../../../assets/ab5.png'
+import ab6 from '../../../assets/ab6.png'
 
 const products = [
   { title: "SkinCare Products", img: pd1 },

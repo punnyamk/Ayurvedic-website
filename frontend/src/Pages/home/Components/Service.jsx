@@ -1,9 +1,9 @@
 import React from 'react';
-import MASSAGE_IMAGE_URL from './assets/blog1.jpg';
-import BLOOD_IMAGE_URL from './assets/blog2.jpg';
-import AYURVEDA_IMAGE_URL from './assets/blog3.jpg';
-import Vector from './assets/Vector.png'
-import blog4 from './assets/blog4.jpg'
+import MASSAGE_IMAGE_URL from '../../../assets/blog1.jpg';
+import BLOOD_IMAGE_URL from '../../../assets/blog2.jpg';
+import AYURVEDA_IMAGE_URL from '../../../assets/blog3.jpg';
+import Vector from '../../../assets/Vector.png'
+import blog4 from '../../../assets/blog4.jpg'
 function Service() {
   return (
     <div className="max-w-7xl mx-auto p-4 md:p-8">
